@@ -1,0 +1,63 @@
+
+WINDOW_TITLE = "Terminator 2 - Judgement Day"
+
+WINDOW_WIDTH = 1536
+WINDOW_HEIGHT = 864
+
+MIN_WINDOW_WIDTH = 960
+MIN_WINDOW_HEIGHT = 540
+
+GRID_ROWS = 27
+GRID_COLS = 48
+CELL_SIZE = 32
+
+WORLD_WIDTH = GRID_COLS * CELL_SIZE
+WORLD_HEIGHT = GRID_ROWS * CELL_SIZE
+
+FPS = 30
+SIMULATION_SPEED = 1.0
+RANDOM_SEED = 42
+
+JOHN_HEALTH = 100
+T800_HEALTH = 200
+T1000_HEALTH = 250
+SARAH_HEALTH = 120
+POLICE_HEALTH = 100
+
+MAX_ENERGY = 100
+
+JOHN_SPEED = 2.5
+T800_SPEED = 2.2
+T1000_SPEED = 2.7
+SARAH_SPEED = 2.4
+POLICE_SPEED = 2.0
+
+JOHN_VISION = 7
+T800_VISION = 9
+T1000_VISION = 10
+SARAH_VISION = 7
+POLICE_VISION = 6
+
+T800_DAMAGE = 15
+T1000_DAMAGE = 20
+POLICE_DAMAGE = 5
+
+COLORS = {
+    "grass": "#345c3d",
+    "road": "#343943",
+    "sidewalk": "#858b8e",
+    "building": "#485568",
+    "park": "#397c4b",
+    "safe_zone": "#21b755",
+    "hazard": "#d93b3b",
+    "water": "#258eb8",
+    "background": "#101820"
+}
+
+AGENT_COLORS = {
+    "john": "#278de8",
+    "t800": "#28c46b",
+    "t1000": "#e63845",
+    "sarah": "#e7a347",
+    "police": "#6687f0"
+}
